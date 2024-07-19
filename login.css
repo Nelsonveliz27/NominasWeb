@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    margin: 0;
+    
+ 
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+    height: 100vh;
+    background-image: url("Imagenes/captiva.avif" );
+    
+    background-size:cover;
+
+    background-position: center;
+    
+}
+
+p{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size:larger;
+}
+
+#usuario, #password{
+    border: 1px;
+    padding: 5px;
+    border-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 40px 60px;
+    background-color: black;
+    align-content: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(245, 10, 10);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 40px 60px;
+    background-color: rgb(241, 21, 21);
+    align-content: center;
+    text-decoration: none;
+    transition: ease-in;
+}
